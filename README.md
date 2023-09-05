@@ -22,7 +22,7 @@ test (optional)
 #### Documentation
 * Thread   
  * Detaches a thread:  
-`int thd_thread_detach(thd_thread* thread, thd_thread_method method, void* data)``
+`int thd_thread_detach(thd_thread* thread, thd_thread_method method, void* data)`
 
  * Joins a thread:  
 `int thd_thread_join(thd_thread* thread);`
